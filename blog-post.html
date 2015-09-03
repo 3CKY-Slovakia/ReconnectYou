@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEALTHCARE Agency</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<link href="css/master.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src= "js/jquery-migrate-1.2.1.js" ></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
+
+
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 text-left">
+          <ul class="social-links">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+            <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+            <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+            <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+          </ul>
+        </div>
+        <div class="top-header__links col-sm-7">
+          <div class="btn-group languages">
+            <button type="button" class="btn_languages dropdown-toggle" data-toggle="dropdown"><i class="icon_globe-2"></i>English UK<span class="caret color_primary"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:void(0);">English UK1</a></li>
+              <li><a href="javascript:void(0);">English UK2</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0);">Hospital Timings</a>
+          <a href="javascript:void(0);">Book an Appointment</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <a href="index.html" class="logo">
+              <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo">
+            </a>
+          </div>
+          <div class="col-md-8 col-xs-12">
+            <div class="header-block">
+              <span class="header-label">
+                <i class="icon-header icon-call-in color_primary"></i>
+                <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span>
+              </span>
+
+              <span class="header-label">
+                <i class="icon-header icon-envelope-open color_primary"></i>
+                <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span>
+              </span>
+
+              <a class="top-cart" href="/"> <i class="icon icon-basket bg-color_primary"></i> Cart Items: 2 <span class="top-cart__price color_second">$250.00</span></a>
+            </div>
+            <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
+              <input type="text" value="" id="search-mobile" name="s" >
+              <button type="submit"><i class="icon fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div><!-- end header-inner-->
+    </div><!-- end container-->
+
+    <div class="top-nav ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  col-xs-12">
+            <div class="navbar yamm " >
+              <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">Menu</a> </div>
+              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown"><a href="index.html"  >Home <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="index.html"> Home 1</a> </li>
+                      <li> <a href="home-2.html"> Home 2</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="index.html"  >ABOUT<b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="about-1.html"  > about 1</a> </li>
+                      <li> <a href="about-2.html"  > about 2</a> </li>
+                      <li> <a href="doctors.html"  > doctors</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="services.html"  > SERVICES <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="services.html"  > service</a> </li>
+                      <li> <a href="services-details.html"  > services details</a> </li>
+                      <li> <a href="services-departments.html"  > services departments</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="blog-1.html"  >Blog <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="blog-1.html" > Blog </a> </li>
+                      <li> <a href="blog-post.html"  > post</a> </li>
+                    </ul>
+                  </li>
+                  <li class=" yamm-fw"><a href="shop-main.html"  >Shop <b class="caret color_primary"></b> </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <div class="yamm-content">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Neurology <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Dental Surgery <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Pregnancy <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="appointment-form.html"  >APPOINTMENT FORM </a> </li>
+                   <li><a href="contact.html"  >CONTACT </a> </li>
+                </ul>
+                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                  <input type="text" value="" id="search" name="s" >
+                  <button type="submit"><i class="icon-magnifier"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--end top-nav -->
+  </div><!-- HEADER END -->
+
+
+  <div class="ui-title-page bg_title bg_transparent">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>POST DETAILS</h1>
+          <div class="ui-subtitle-page">Egestas dolor erat vamus suscip ipsum estduin</div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end ui-title-page -->
+
+
+  <div class="border_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="javascript:void(0);"><i class="icon icon-home color_primary"></i></a></li>
+            <li class="active"><a href="javascript:void(0);">Classic Blog Style</a></li>
+            <li class="active">Post Details</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div><!-- end breadcrumb -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <main class="main-content">
+          <article class="post">
+            <div class="entry-main">
+              <ul class="info-post">
+                <li class="date color_primary">30</li>
+                <li class="month">APR</li>
+                <li class="comments li-last"><a href="javascript:void(0);"><i class="icon icon-bubbles color_second"></i>20</a></li>
+              </ul>
+             <div class="hover__figure">  <img src="media/770x400/1.jpg" height="400" width="770" alt="Foto"></div>
+              <div class="entry-autor">
+                <img src="media/80x80/1.jpg" height="82" width="80" alt="Autor">
+              </div>
+              <h2 class="entry-title">Why Primary Health Care is very important in life?</h2>
+              <ul class="entry-meta unstyled clearfix">
+                <li>
+                  <a href="javascript:void(0);"><i class="icon color_second icon-user"></i>By Dr. Smith</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"><i class="icon color_second icon-folder"></i>Health & Care</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"><i class="icon color_second icon-eye"></i>51</a>
+                </li>
+              </ul>
+              <div class="entry-content ui-text">Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nuc placerat cursus  In sodales purus non nisi. Aliquam orci lacus, mattis nec ornare sed, varius eget, turpis. Donec eget massa velit interdum interdum. Cras vehicula, pede a viverra varius pede sapien commodo turpis et blandit ut nisi. Eonec pede. Maecenas sodales elit. Suspendisse justo elit vulputate vel sodales sit amet convallis vel dolor.</div>
+              <div class="entry-content ui-text">Ut tellus.Nullam nec sem. Nullam risus turpis, rhoncus vel, varius consequat, laoreet ac, neque. Cras tristique ante lacinia dolor. Aenean a odio. Integer faucibus augue ut lacus.Sed purus neque, lacinia ac blandit nec pulvinar vel, pede. Suspendisse ut diam. Donec ut augue. Suspendisse et erat. Cras augue ipsum, pharetra indsa scelerisque acd mollis vel, metus. Nulla condimen tum sollicitudin lacus. Quisque urna enim placerat ut, auctor sed, mollis vitae. Cras volutpat, mauris a rhoncus accumsan est lacus tincidunt nibh eu pretium enim elit in augue. Vestibulum eget nibh velit fermentum sollicitudin. Sed vehicula lorem a rhonc usc varius felis felis ultrices dolor a euismod lacus ligula a nisl.</div>
+
+              <div class="entry-review clearfix wow bounceIn" data-wow-delay=".5s">
+                <i class="quotes fa fa-quote-left bg-color_primary"></i>
+                <blockquote>
+                  Etiam feugiat libero et sapien. Donec rutrum neque ac congue venenatis lorem ipsum pulvinar leo sollicitudin metus massa non velit. Maecenas elementum. In a nulla. Mauris metus turpis iaculis.
+                </blockquote>
+                <img class="entry-review__avatar" src="media/avatar_post-review/1.jpg" height="79" width="78" alt="Avatar">
+                <span class="entry-review__name">Vettle Smith</span>
+                <span class="entry-review__categories">Kidney Patient</span>
+              </div><!-- end entry-review -->
+
+              <div class="entry-content ui-text">Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nuc placerat cursus  In sodales purus non nisi. Aliquam orci lacus, mattis nec ornare sed, varius eget, turpis. Donec eget massa velit interdum interdum. Cras vehicula, pede a viverra varius pede sapien commodo turpis et blandit ut nisi. Eonec pede. Maecenas sodales elit. Suspendisse justo elit vulputate vel sodales sit amet convallis vel dolor.</div>
+              <img class="entry-img pull-left" src="media/300x267/1.jpg" height="267" width="300" alt="Foto">
+              <div class="entry-content ui-text">Ut tellus.Nullam nec sem. Nullam risus turpis, rhoncus vel, varius consequat, laoreet ac, neque. Cras tristique ante lacinia dolor. Aenean a odio. Integer faucibus augue ut lacus.Sed purus neque, lacinia ac blandit nec, pulvinar vel, pede. Suspendisse ut diam. Donec ut augue. Suspendisse et erat. Cras augue ipsum, pharetra indsa scelerisque ac, mollis vel metus.</div>
+              <div class="entry-content ui-text">Nulla condimen tum sollicitudin lacus. Quisque urna enim placerat ut, auctor sed, mollis vitae. Cras volutpat, mauris a rhoncus accumsan est lacus tincidunt nibh, eu pretium enim elit in augue. Vestibulum eget nibh velit fermentum sollicitudin.</div>
+              <div class="entry-content ui-text">Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nuc placerat cursus  In sodales purus non nisi. Aliquam orci lacus, mattis nec ornare sed, varius eget, turpis. Donec eget massa velit interdum interdum. Cras vehicula, pede a viverra varius pede sapien commodo turpis et blandit ut nisi. Eonec pede. Maecenas sodales elit. Suspendisse justo elit vulputate vel sodales sit amet convallis vel dolor.</div>
+
+              <div class="footer-panel">
+                <i class="icon-tag color_primary"></i>
+                <a href="javascript:void(0);"> HealthCare</a>
+                <a href="javascript:void(0);">Fitness</a>
+                <a href="javascript:void(0);">Weight Loss</a>
+              </div>
+
+              <div class="social-links clearfix">
+                <div class="social-links__inner pull-right">
+                  <span class="social-links__name">SHARE THIS ARTICLE</span>
+                  <a href="javascript:void(0);"><i class="icon fa fa-facebook"></i></a>
+                  <a href="javascript:void(0);"><i class="icon fa fa-twitter"></i></a>
+                  <a href="javascript:void(0);"><i class="icon fa fa-pinterest-p"></i></a>
+                </div>
+              </div>
+
+            </div><!-- end entry-main -->
+          </article><!-- end post -->
+
+          <div class="about-autor bg-color_second clearfix wow bounceIn" data-wow-delay=".5s">
+            <img class="about-autor__foto" src="media/avatar_about-autor/1.jpg" height="130" width="135" alt="Avatar">
+            <div class="about-autor__inner">
+              <span class="about-autor__name">Dr. Alex Furgosen</span>
+              <span class="about-autor__category">CANCER SPECIALIST</span>
+              <div class="about-autor__text ui-text">Nulla viverra ultrices magna. Aenean et diam. Nam semper ipsum et purus sed quam. Ut scelerisque prtium dolor. Sed tincidunt scelerisque sem. Sed et erat nulla facilisi. Sed urna erat vehicula scele risque gravida et scelerisque in metus.</div>
+            </div>
+          </div>
+
+          <section class="section-comment">
+            <h3 class="widget-title">Comments (5)</h3>
+
+            <ul class="comments-list unstyled clearfix">
+              <li class="animated animation-done bounceInUp" data-animation="bounceInUp">
+                <article class="comment">
+                  <div class="avatar-placeholder"> <img src="media/avatar_comments/1.jpg" height="90" width="90" alt="avatar"></div>
+                  <header class="comment-header"> <cite class="comment-author">William Shane</cite>
+                    <time class="comment-datetime" datetime="2012-10-27 15:20">May 10, 2015</time>
+                  </header>
+                  <div class="comment-body">
+                    <p>Justo laoreet dignis csim lectus duic etiam ipsum habitant tristiq due nam est. Donec venenatis leo eu varius. Donec eu neque at nisi molestie pellentesque. Nam ullamcorper ipsum quis</p>
+                    <div class="comment-reply"> <a class="btn btn_small" href="#"><i class="icon icon-bubbles color_second"></i> Reply </a></div>
+                </article>
+              </li>
+              <li class="animated animation-done bounceInUp" data-animation="bounceInUp">
+                <article class="comment">
+                  <div class="avatar-placeholder"> <img src="media/avatar_comments/2.jpg" height="90" width="90" alt="avatar"></div>
+                  <header class="comment-header"> <cite class="comment-author">Sharon Laura</cite>
+                    <time class="comment-datetime" datetime="2012-10-27 15:20">May 10, 2015</time>
+                  </header>
+                  <div class="comment-body">
+                    <p>Justo laoreet dignis csim lectus duic etiam ipsum habitant tristiq due nam est. Donec venenatis leo eu varius. Donec eu neque at nisi molestie pellentesque. Nam ullamcorper ipsum quis</p>
+                    <div class="comment-reply"> <a class="btn btn_small" href="#"><i class="icon icon-bubbles color_second"></i> Reply </a></div>
+                  </div>
+                </article>
+                <ul class="children clearfix">
+                  <li>
+                    <article class="comment img">
+                      <div class="avatar-placeholder"> <img src="media/avatar_comments/3.jpg" height="90" width="90" alt="avatar"></div>
+                      <header class="comment-header"> <cite class="comment-author">Andrea Jane</cite>
+                        <time class="comment-datetime" datetime="2012-10-27 15:20">May 10, 2015</time>
+                      </header>
+                      <div class="comment-body">
+                        <p>Justo laoreet dignis csim lectus duic etiam ipsum habitant tristiq due nam est. Donec venenatis leo eu varius. Donec eu neque at nisi molestie pellentesque.</p>
+                        <div class="comment-reply"> <a class="btn btn_small" href="#"><i class="icon icon-bubbles color_second"></i> Reply </a></div>
+                      </div>
+                    </article>
+                  </li>
+                </ul><!-- end children -->
+              </li>
+            </ul><!-- end COMMENT LIST -->
+          </section><!-- end section-comment -->
+
+          <section class="comment-reply-form">
+            <h3 class="widget-title">Post Your Comment</h3>
+            <form action="#" method="post" id="comment-reply-form" class="ui-form">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="input-group">
+                    <input type="text" placeholder="Your Name" id="comment-author" name="author" required>
+                    <i class="icon icon-user"></i>
+                  </div>
+                  <div class="input-group">
+                    <input type="email" id="comment-email" name="email" required placeholder="Email Address">
+                    <i class="icon icon-envelope-open"></i>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="comment-website" name="website" placeholder="Website">
+                    <i class="icon icon_globe-2"></i>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="input-group">
+                    <textarea id="comment-text" name="comment" required rows="9"></textarea>
+                    <i class="icon icon-bubbles"></i>
+                  </div>
+                </div>
+                <div class="col-sm-12 text-right">
+                  <button class="btn bg-color_primary">SEND COMMENT</button>
+                </div>
+              </div>
+            </form>
+          </section><!-- end comment-reply-form -->
+        </main><!-- end main-content -->
+      </div>
+
+
+      <div class="col-md-3">
+        <aside class="sidebar">
+
+          <div class="widget widget-search">
+            <form method="get" class="form-search clearfix" id="search-global-form">
+              <input class="form-search__input" type="text" name="" id="search2" placeholder="Search Blog ...">
+              <button class="form-search__submit" type="submit"><i class="icon icon-magnifier"></i></button>
+            </form>
+          </div>
+
+          <div class="widget widget-category">
+            <h3 class="widget-title">categories</h3>
+            <div class="block_content">
+              <ul class="list-categories list-categories_widget">
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Diagnose &amp; Research</span><span class="list-categories__amout color_primary">15</span></a></li>
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Cancer Oncology</span><span class="list-categories__amout color_primary">20</span></a></li>
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Dental Surgery</span><span class="list-categories__amout color_primary">6</span></a></li>
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Neurology</span><span class="list-categories__amout color_primary">74</span></a></li>
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Drug / Medicine</span><span class="list-categories__amout color_primary">101</span></a></li>
+                <li><a href="javascript:void(0);"><span class="list-categories__name">Heart Center</span><span class="list-categories__amout color_primary">31</span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="widget widget-post">
+            <h3 class="widget-title">RECENT POSTS</h3>
+            <div class="block_content">
+              <section class="widget-post__item clearfix">
+                <div class="entry-thumbnail"> <a class="img" href="javascript:void(0);"> <img src="media/80x80/2.jpg" height="80" width="80" alt="Foto"></a> </div>
+                <div class="entry-main">
+                  <h4 class="entry-header"><a href="javascript:void(0);">Curabitur id lectus mae enas non diam</a></h4>
+                  <div class="entry-meta">
+                    <div class="meta"><a href="javascript:void(0);"><i class="icon icon-bubbles color_primary"></i>20</a></div>
+                    <div class="meta"><time pubdate datetime="2015-05-22"><i class="icon icon-calendar color_primary"></i>May 22, 2015</time></div>
+                  </div>
+                </div>
+              </section><!-- end widget-post__item -->
+              <section class="widget-post__item clearfix">
+                <div class="entry-thumbnail"> <a class="img" href="javascript:void(0);"> <img src="media/80x80/3.jpg" height="80" width="80" alt="Foto"></a> </div>
+                <div class="entry-main">
+                  <h4 class="entry-header"><a href="javascript:void(0);">Curabitur id lectus mae enas non diam</a></h4>
+                  <div class="entry-meta">
+                    <div class="meta"><a href="javascript:void(0);"><i class="icon icon-bubbles color_primary"></i>20</a></div>
+                    <div class="meta"><time pubdate datetime="2015-05-22"><i class="icon icon-calendar color_primary"></i>May 22, 2015</time></div>
+                  </div>
+                </div>
+              </section><!-- end widget-post__item -->
+              <section class="widget-post__item clearfix">
+                <div class="entry-thumbnail"> <a class="img" href="javascript:void(0);"> <img src="media/80x80/4.jpg" height="80" width="80" alt="Foto"></a> </div>
+                <div class="entry-main">
+                  <h4 class="entry-header"><a href="javascript:void(0);">Curabitur id lectus mae enas non diam</a></h4>
+                  <div class="entry-meta">
+                    <div class="meta"><a href="javascript:void(0);"><i class="icon icon-bubbles color_primary"></i>20</a></div>
+                    <div class="meta"><time pubdate datetime="2015-05-22"><i class="icon icon-calendar color_primary"></i>May 22, 2015</time></div>
+                  </div>
+                </div>
+              </section><!-- end widget-post__item -->
+            </div><!-- end block_content -->
+          </div><!-- end widget-post -->
+
+
+          <div class="widget widget-cloud clearfix">
+            <h3 class="widget-title">POPULAR TAGS</h3>
+            <div class="block_content">
+              <div class="tagcloud">
+                <ul class="wp-tag-cloud unstyled">
+                  <li><a href="/">HealthCare</a></li>
+                  <li><a href="/">Fitness</a></li>
+                  <li><a href="/">Food</a></li>
+                  <li><a href="/">Weight Loss</a></li>
+                  <li><a href="/">Medical Clinic</a></li>
+                  <li><a href="/">Popular Doctors</a></li>
+                  <li><a href="/">Dental</a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- end widget-cloud -->
+
+
+          <div class="business-card business-card_blog">
+            <img src="media/270x272/1.jpg" height="272" width="270" alt="Foto">
+            <div class="business-card__title">At Our Family Clinic You Will Get<strong>Full Treatment</strong></div>
+            <a class="btn btn_small" href="javascript:void(0);">READ MORE</a>
+            <div class="business-card__btm">
+              <span class="business-card__phone color_primary"><i class="icon icon-call-in"></i>+522 234 56789</span>
+            <span class="business-card__info">CALL US FOR BOOK AN APPOINTMENT</span>
+            </div>
+          </div><!-- end business-card -->
+
+          <section>
+            <h3 class="widget-title">Opening Hours</h3>
+            <div class="ui-text widget-text">Justo laoreet dignis csim lectus duic etiam ipsum habitant tristiq due nam est. Donec venenatis leo eu varius.</div>
+            <table class="table-hours table-hours_blog">
+              <tbody>
+                <tr>
+                  <td><strong>Monday - Friday</strong></td>
+                  <td class="text-right">08:00am - 10:00pm</td>
+                </tr>
+                <tr>
+                  <td><strong>Saturday - Sunday</strong></td>
+                  <td class="text-right">09:00am - 06:00pm</td>
+                </tr>
+                <tr>
+                  <td><strong>Emergency Services</strong></td>
+                  <td class="text-right">24 hours Open</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </aside><!-- end sidebar -->
+      </div>
+    </div><!-- end row -->
+  </div><!-- end container -->
+
+  <div class="banner bg bg_3 bg_transparent wow zoomIn" data-wow-delay="1s">
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="list-progress">
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-user-md"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="126"> <span class="percent"></span> </span>
+                <span class="label-chart">Hospital Rooms</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-hospital-o"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="510"> <span class="percent"></span> </span>
+                <span class="label-chart">Qualified Staff</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-heartbeat"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="6200"> <span class="percent"></span> </span>
+                <span class="label-chart">Satisfied Patients</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-shield"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="513"> <span class="percent"></span> </span>
+                <span class="label-chart">Doctors Medals</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><!-- end banner -->
+
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <section class="footer__section">
+              <h2 class="footer__title">About HealthCare Agency</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <p>Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim lectus etiam ipsum habitant tristique</p>
+              <address class="footer__contacts"><i class="footer__icon icon-pointer color_primary"></i>Plot No. 38 St. 39 UpHill Town, Newyork, USA</address>
+              <p class="footer__contacts"><i class="footer__icon icon-call-in color_primary"></i>+522 234 56789  / +522 234 56780</p>
+              <p class="footer__contacts"><i class="footer__icon icon-envelope-open color_primary"></i>info@healthcare-agency.org</p>
+            </section>
+            <section class="footer__section">
+              <h2 class="footer__title">Opening Hours</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <table class="footer__table">
+                <tbody>
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>08:00am - 10:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>09:00am - 06:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Emergency Services</td>
+                    <td>24 hours Open</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </div>
+
+          <section class="footer__section col-sm-4">
+            <h2 class="footer__title">Recent Tweets</h2>
+            <i class="decor-brand decor-brand_footer"></i>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+          </section>
+
+          <section class="footer__section col-sm-4">
+            <h2 class="footer__title">Contact Form</h2>
+            <i class="decor-brand decor-brand_footer"></i>
+            <form class="form" role="form">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Full Name">
+                <input class="form-control" type="email" placeholder="Email address">
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                <input class="btn bg-color_primary pull-right" type="submit" value="SEND NOW">
+              </div>
+            </form>
+          </section>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div><!-- end footer__inner -->
+
+    <div class="footer__menu clearfix">
+      <div class="container">
+        <a href="index.html" class="logo pull-left">
+          <img class="logo__img" src="img/logo_footer.png" height="44" width="270" alt="Logo">
+        </a>
+        <ul class="pull-right">
+          <li><a href="javascript:void(0);">HOME</a></li>
+          <li><a href="javascript:void(0);">ABOUT</a></li>
+          <li><a href="javascript:void(0);">SERVICES</a></li>
+          <li><a href="javascript:void(0);">PAGES</a></li>
+          <li><a href="javascript:void(0);">GALLERY</a></li>
+          <li><a href="javascript:void(0);">BLOG</a></li>
+          <li><a href="javascript:void(0);">SHOP</a></li>
+          <li><a href="javascript:void(0);">CONTACT</a></li>
+        </ul>
+      </div><!-- end container -->
+    </div><!-- end footer__menu -->
+
+    <div class="footer__bottom">
+      <span class="copyright">© Copyrights 2015 Healthcare Agency</span>
+      <ul class="social-links">
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+        <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+</div><!-- end layout-theme -->
+
+<span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span>
+<div id="page-preloader">
+  <div class="spinner-loader"> <img width="294" height="50" alt="Logo" src="img/logo.png" class="logo__loader">
+    <div class="heartbeat-loader"></div>
+  </div>
+</div>
+<!-- SCRIPTS -->
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+    <script src="plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="plugins/jelect/jquery.jelect.js"></script>
+<script src="plugins/nouislider/jquery.nouislider.all.min.js"></script>
+
+
+<!--THEME-->
+<script src="js/cssua.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

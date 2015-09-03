@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEALTHCARE Agency</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<link href="css/master.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src= "js/jquery-migrate-1.2.1.js" ></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
+
+
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 text-left">
+          <ul class="social-links social-links_right">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+            <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+            <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+            <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+          </ul>
+        </div>
+        <div class="top-header__links col-sm-7">
+          <div class="btn-group languages">
+            <button type="button" class="btn_languages dropdown-toggle" data-toggle="dropdown"><i class="icon_globe-2"></i>English UK<span class="caret color_primary"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:void(0);">English UK1</a></li>
+              <li><a href="javascript:void(0);">English UK2</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0);">Hospital Timings</a>
+          <a href="javascript:void(0);">Book an Appointment</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <a href="index.html" class="logo">
+              <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo">
+            </a>
+          </div>
+          <div class="col-md-8 col-xs-12">
+            <div class="header-block">
+              <span class="header-label">
+                <i class="icon-header icon-call-in color_primary"></i>
+                <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span>
+              </span>
+
+              <span class="header-label">
+                <i class="icon-header icon-envelope-open color_primary"></i>
+                <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span>
+              </span>
+
+              <a class="top-cart" href="/"> <i class="icon icon-basket bg-color_primary"></i> Cart Items: 2 <span class="top-cart__price color_second">$250.00</span></a>
+            </div>
+            <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
+              <input type="text" value="" id="search-mobile" name="s" >
+              <button type="submit"><i class="icon fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div><!-- end header-inner-->
+    </div><!-- end container-->
+
+    <div class="top-nav ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  col-xs-12">
+            <div class="navbar yamm " >
+              <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">Menu</a> </div>
+              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown"><a href="index.html"  >Home <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="index.html"> Home 1</a> </li>
+                      <li> <a href="home-2.html"> Home 2</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="index.html"  >ABOUT<b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="about-1.html"  > about 1</a> </li>
+                      <li> <a href="about-2.html"  > about 2</a> </li>
+                      <li> <a href="doctors.html"  > doctors</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="services.html"  > SERVICES <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="services.html"  > service</a> </li>
+                      <li> <a href="services-details.html"  > services details</a> </li>
+                      <li> <a href="services-departments.html"  > services departments</a> </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="blog-1.html"  >Blog <b class="caret color_primary"></b> </a>
+                    <ul role="menu" class="dropdown-menu">
+                      <li> <a href="blog-1.html" > Blog </a> </li>
+                      <li> <a href="blog-post.html"  > post</a> </li>
+                    </ul>
+                  </li>
+                  <li class=" yamm-fw"><a href="shop-main.html"  >Shop <b class="caret color_primary"></b> </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <div class="yamm-content">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Neurology <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Dental Surgery <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <h3 class="t1-title">Pregnancy <i class="decor-brand decor-brand_footer"></i> </h3>
+                              <ul>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 1</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 2</a></li>
+                                <li><a href="shop-main.html"><i class="fa fa-angle-right"></i>Materials 3</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="appointment-form.html"  >APPOINTMENT FORM </a> </li>
+                   <li><a href="contact.html"  >CONTACT </a> </li>
+                </ul>
+                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                  <input type="text" value="" id="search" name="s" >
+                  <button type="submit"><i class="icon-magnifier"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--end top-nav -->
+  </div><!-- HEADER END -->
+
+
+  <div class="ui-title-page bg_title bg_transparent">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>OUR DOCTORS</h1>
+          <div class="ui-subtitle-page">Egestas dolor erat vamus suscip ipsum estduin</div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end ui-title-page -->
+
+
+  <div class="border_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="javascript:void(0);"><i class="icon icon-home color_primary"></i></a></li>
+            <li class="active">Our Doctors</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div><!-- end breadcrumb -->
+
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="ui-title-block text-center">Meet Our Team <strong>Of Experienced Doctors</strong></h2>
+            <div class="ui-subtitle-block">Our medical specialists care about you & your family’s health</div>
+          </div>
+        </div><!-- end row -->
+        <i class="decor-brand decor-brand_mrg-0"></i>
+      </div><!-- end container -->
+
+
+      <div class="slider_team slider_team_horiz border_btm wow bounceInUp" data-wow-delay="1s">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="slide slide_horiz">
+                <div class="row">
+                  <div class="col-md-6 col-sm-5">
+                    <img src="media/slider_team/9.jpg" height="250" width="270" alt="Foto">
+                    <ul class="social-links social-links_right">
+                      <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                      <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                      <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                      <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-sm-7 text-left">
+                    <span class="name">Dr. Alex Furgosen</span>
+                    <span class="category">PRESIDENT</span>
+                    <div class="slide__info ui-text">Craesent justo laoreet dignissim lectu  etiam ipsum sed habitan tristique nam est. Donec venenatis leo eu varius.</div>
+                    <div class="slide__contacts">
+                      <i class="icon icon-call-in"></i>
+                      <span class="helper"><a href="tel:+522 234 56789">+522 234 56789</a></span>
+                    </div>
+                    <div class="slide__contacts">
+                      <i class="icon icon-envelope-open"></i>
+                      <span class="helper"><a href="mailto:info@healthcare-agency.org">info@healthcare-agency.org</a></span>
+                    </div>
+                    <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                  </div>
+                </div><!-- end row -->
+              </div><!-- end slide -->
+            </div>
+            <div class="col-sm-6">
+              <div class="slide slide_horiz">
+                <div class="row">
+                  <div class="col-md-6 col-sm-5">
+                    <img src="media/slider_team/10.jpg" height="250" width="270" alt="Foto">
+                    <ul class="social-links social-links_right">
+                      <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                      <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                      <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                      <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-sm-7 text-left">
+                    <span class="name">Dr. Helen James</span>
+                    <span class="category">MEDICAL DIRECTOR</span>
+                    <div class="slide__info ui-text">Craesent justo laoreet dignissim lectu  etiam ipsum sed habitan tristique nam est. Donec venenatis leo eu varius.</div>
+                    <div class="slide__contacts">
+                      <i class="icon icon-call-in"></i>
+                      <span class="helper"><a href="tel:+522 234 56789">+522 234 56789</a></span>
+                    </div>
+                    <div class="slide__contacts">
+                      <i class="icon icon-envelope-open"></i>
+                      <span class="helper"><a href="mailto:info@healthcare-agency.org">info@healthcare-agency.org</a></span>
+                    </div>
+                    <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                  </div>
+                </div><!-- end row -->
+              </div><!-- end slide -->
+            </div>
+          </div><!-- end row -->
+        </div><!-- end container -->
+      </div><!-- end slider_team -->
+    </section><!-- end section -->
+
+
+    <div class="slider_team slider_team_filter wow bounceInUp" data-wow-delay=".5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <ul id="filter" class="clearfix">
+              <li><a href="" class="current" data-filter="*">HealthCare</a></li>
+              <li><a href="" data-filter=".surgeons">Surgeons</a></li>
+              <li><a href="" data-filter=".staff">General Staff</a></li>
+              <li><a href="" data-filter=".cardiology">Cardiology</a></li>
+              <li><a href="" data-filter=".physicians">Physicians</a></li>
+              <li><a href="" data-filter=".nurses">Nurses</a></li>
+            </ul>
+          </div>
+        </div><!-- end row -->
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="isotope-frame">
+              <div class="isotope-filter">
+                <div class="isotope-item surgeons">
+                    <div class="slide">
+                      <img src="media/slider_team/1.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Alex Furgosen</span>
+                      <span class="category">CANCER SPECIALIST</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item cardiology">
+                    <div class="slide">
+                      <img src="media/slider_team/2.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Robert Smith</span>
+                      <span class="category">HEART SURGON</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item surgeons">
+                    <div class="slide">
+                      <img src="media/slider_team/4.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Sharon Laura</span>
+                      <span class="category">FAMILY PHYSICIAN</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item staff">
+                    <div class="slide">
+                      <img src="media/slider_team/3.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Andrea Jean</span>
+                      <span class="category">SENIOR NURSE</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item cardiology">
+                    <div class="slide">
+                      <img src="media/slider_team/5.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Andrea Jean</span>
+                      <span class="category">CANCER SPECIALIST</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item surgeons">
+                    <div class="slide">
+                      <img src="media/slider_team/7.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Andrea Jean</span>
+                      <span class="category">FAMILY PHYSICIAN</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item nurses">
+                    <div class="slide">
+                      <img src="media/slider_team/6.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Carol Sandra</span>
+                      <span class="category">HEART SURGON</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div><!-- end isotope-item -->
+                <div class="isotope-item physicians">
+                    <div class="slide">
+                      <img src="media/slider_team/8.jpg" height="250" width="270" alt="Foto">
+                      <span class="name">Dr. Andrea Jean</span>
+                      <span class="category">SENIOR NURSE</span>
+                      <a href="javascript:void(0);" class="btn btn_small">BOOK AN APPOINTMENT</a>
+                      <ul class="social-links social-links_right">
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+                        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div><!-- end isotope-filter -->
+            </div><!-- end isotope-frame -->
+          </div><!-- end col -->
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div><!-- end slider_team -->
+  </main><!-- end main-content -->
+
+
+  <div class="banner bg bg_3 bg_transparent wow zoomIn" data-wow-delay="1s">
+    <div class="container">
+     
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="list-progress">
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-user-md"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="126"> <span class="percent"></span> </span>
+                <span class="label-chart">Hospital Rooms</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-hospital-o"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="510"> <span class="percent"></span> </span>
+                <span class="label-chart">Qualified Staff</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-heartbeat"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="6200"> <span class="percent"></span> </span>
+                <span class="label-chart">Satisfied Patients</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon-round icon-round_small bg-color_second helper"><i class="icon fa fa-shield"></i></span>
+              <div class="info">
+                <span class="chart" data-percent="513"> <span class="percent"></span> </span>
+                <span class="label-chart">Doctors Medals</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><!-- end banner -->
+
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <section class="footer__section">
+              <h2 class="footer__title">About HealthCare Agency</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <p>Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim lectus etiam ipsum habitant tristique</p>
+              <address class="footer__contacts"><i class="footer__icon icon-pointer color_primary"></i>Plot No. 38 St. 39 UpHill Town, Newyork, USA</address>
+              <p class="footer__contacts"><i class="footer__icon icon-call-in color_primary"></i>+522 234 56789  / +522 234 56780</p>
+              <p class="footer__contacts"><i class="footer__icon icon-envelope-open color_primary"></i>info@healthcare-agency.org</p>
+            </section>
+            <section class="footer__section">
+              <h2 class="footer__title">Opening Hours</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <table class="footer__table">
+                <tbody>
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>08:00am - 10:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>09:00am - 06:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Emergency Services</td>
+                    <td>24 hours Open</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </div>
+
+          <section class="footer__section col-sm-4">
+            <h2 class="footer__title">Recent Tweets</h2>
+            <i class="decor-brand decor-brand_footer"></i>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+            <section class="tweets">
+              <h3 class="tweets__title"><i class="footer__icon icon-social-twitter color_primary"></i>@ HealthCare Agency</h3>
+              <p class="tweets__text">Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim.</p>
+              <span class="tweets__time">3 hours ago</span>
+            </section>
+          </section>
+
+          <section class="footer__section col-sm-4">
+            <h2 class="footer__title">Contact Form</h2>
+            <i class="decor-brand decor-brand_footer"></i>
+            <form class="form" role="form">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Full Name">
+                <input class="form-control" type="email" placeholder="Email address">
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                <input class="btn bg-color_primary pull-right" type="submit" value="SEND NOW">
+              </div>
+            </form>
+          </section>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div><!-- end footer__inner -->
+
+    <div class="footer__menu clearfix">
+      <div class="container">
+        <a href="index.html" class="logo pull-left">
+          <img class="logo__img" src="img/logo_footer.png" height="44" width="270" alt="Logo">
+        </a>
+        <ul class="pull-right">
+          <li><a href="javascript:void(0);">HOME</a></li>
+          <li><a href="javascript:void(0);">ABOUT</a></li>
+          <li><a href="javascript:void(0);">SERVICES</a></li>
+          <li><a href="javascript:void(0);">PAGES</a></li>
+          <li><a href="javascript:void(0);">GALLERY</a></li>
+          <li><a href="javascript:void(0);">BLOG</a></li>
+          <li><a href="javascript:void(0);">SHOP</a></li>
+          <li><a href="javascript:void(0);">CONTACT</a></li>
+        </ul>
+      </div><!-- end container -->
+    </div><!-- end footer__menu -->
+
+    <div class="footer__bottom">
+      <span class="copyright">© Copyrights 2015 Healthcare Agency</span>
+      <ul class="social-links social-links_right">
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+        <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+</div><!-- end layout-theme -->
+
+<span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span>
+<div id="page-preloader">
+  <div class="spinner-loader"> <img width="294" height="50" alt="Logo" src="img/logo.png" class="logo__loader">
+    <div class="heartbeat-loader"></div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+ <script src="plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="plugins/jelect/jquery.jelect.js"></script>
+<script src="plugins/nouislider/jquery.nouislider.all.min.js"></script>
+
+<!--THEME-->
+<script src="js/cssua.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

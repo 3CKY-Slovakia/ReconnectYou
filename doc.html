@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/master.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper"> 
+  
+  <!-- .header-->
+  
+  <main class="content">
+    <header class="header"> <img alt="logo" src="img/logo.png"> </header>
+    <section id="landing">
+      <p class="alert alert-success">If you are not familiar with HTML and CSS, I highly recommend that you to hire a specialist. It will save your time and you will get only positive emotions while using our product. </p>
+      <header  class="section-header">
+        <h2 class="ui-title-block text-center">Tools to <strong>help work</strong></h2>
+        <i class="decor-brand decor-brand_mrg-0"></i> </header>
+      <div class="info-links">
+        <ul>
+          <li><a href="https://addons.mozilla.org/ru/firefox/addon/firebug/" target="_blank">Firebug</a></li>
+          <li><a href="https://developer.chrome.com/devtools/index" target="_blank">Chrome devtools</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="plugins">
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">sticky <strong>header</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <p> Activate or setting sticky header </p>
+        <pre>
+    
+    <code data-language="html">
+
+ class="layout-theme animated-css" data-header="sticky" data-header-top="200"
+
+</code>
+
+</pre>
+      </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">PAGE P<strong>RELOADING EFFECT</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <p>We use this effect only on Landing Page. It makes waiting process while page loading less boring for the user. It is relevant for large pages with large amount of information just like in our case. </p>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://tympanus.net/codrops/2014/08/05/page-preloading-effect/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> plugins/loader/ </p>
+        </div>
+        <pre>
+    
+<code data-language="html">      
+          
+<!-- Loader Landing Page -->
+<div id="ip-container" class="ip-container"> 
+  <!-- initial header -->
+  <header class="ip-header" >
+    <div class="ip-loader">
+      <div class="text-center">
+        <div class="ip-logo"><img  src="img/logo.png" alt="logo"></div>
+      </div>
+      <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+      <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+      <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+      </svg> </div>
+  </header>
+</div>
+<!-- Loader end --> 
+
+</code>
+
+</pre>
+        <p>You can move this code to another page or delete it. </p>
+      </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">Animate <strong>Elements</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://daneden.github.io/animate.css/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> css/animate.css </p>
+        </div>
+        <p>To add animations in elements </p>
+        <pre>
+    
+<code data-language="html"> 
+<div class="animated " data-animation="fadeInUp">ANIMATE CONTENT</div>
+</code></pre>
+        <p>To global disable animations remove class <strong>animated-css </strong></p>
+        <pre>
+        <code data-language="html">
+        <div class="layout-theme animated-css "  data-header="sticky" data-header-top="200"  ></div>
+        </code> </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">Home<strong> Slider</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://iprodev.com/iview/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> plugins/iview/ </p>
+        </div>
+        <img src="media/doc/2.png" width="1172" height="543" />
+        <p>Slider for home page of your site. </p>
+      </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">Boostrap <strong>Mega Menu</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://geedmo.github.io/yamm/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> plugins/yamm3/ </p>
+        </div>
+        <img src="media/doc/3.png" width="1385" height="697"/>
+        <p>This is Yet another megamenu for Bootstrap 3 from Twitter. Lightweight and pure CSS megamenu that uses the standard navbar markup and the fluid grid system classes from Bootstrap 3. Work for fixed and responsive layout and has the facility to include (almost) any Bootstrap elements.</p>
+      </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">Product <strong>Carousel</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://www.woothemes.com/flexslider/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> plugins/flexslider/ </p>
+        </div>
+        <img src="media/doc/product.png" /> </div>
+      <div class="xsection">
+        <header  class="section-header">
+          <h2 class="ui-title-block text-center">Bxslider <strong>carousel</strong></h2>
+          <i class="decor-brand decor-brand_mrg-0"></i> </header>
+        <div class="info-links">
+          <p> <i class="fa fa-external-link-square"></i> <a href="http://bxslider.com/" target="_blank">Developer website </a> </p>
+          <p class="pre"> <i class="fa fa-folder-open"></i> plugins/bxslider/<br>
+        </div>
+        <img src="media/doc/bxslider.png" width="1249" height="470" alt=""/>
+        <div class="alert alert-success">Carousel have parametrs in HTML (You do not need to change  JS files)</div>
+        <pre>
+    
+<code data-language="html">
+
+<ul 
+
+data-infinite-slides="false" 
+data-move-slides="1" 
+data-auto-slides="false" 
+data-margin-slides="10" 
+data-width-slides="270" 
+data-max-slides="3"
+
+ >
+CAROUSEL ITEMS
+</ul>
+
+
+
+</code></pre>
+      </div>
+    </section>
+    <section id="main">
+      <header  class="section-header">
+        <h2 class="ui-title-block text-center">Main <strong>Styles and Scripts</strong></h2>
+        <i class="decor-brand decor-brand_mrg-0"></i> </header>
+      <div class="info-links">
+      
+      
+     <p><i class="fa fa-folder-open"></i>master.css  -  Master Styles </p>  
+   <p><i class="fa fa-folder-open"></i>bootstrap.css   - Boostrap Styles  </p>
+<p> <i class="fa fa-folder-open"></i>theme-GlobalUI.css -  - UI Styles</p>
+<p> <i class="fa fa-folder-open"></i>theme.css  - Theme Styles</p>
+ <p><i class="fa fa-folder-open"></i>theme-Cosmetic.css - Theme Styles  </p>
+ <p><i class="fa fa-folder-open"></i>custom.css </p>
+ <p><i class="fa fa-folder-open"></i>inner.css - Theme Styles</p>
+ <p><i class="fa fa-folder-open"></i>shop.css - Shop Styles </p>
+ <p><i class="fa fa-folder-open"></i>blog.css - Blog Styles </p>
+ <p><i class="fa fa-folder-open"></i>responsive.css - Responsive Styles </p>
+ <p><i class="fa fa-folder-open"></i>animate.css - Animation Styles </p>
+<p> <i class="fa fa-folder-open"></i>color.css  - Color Styles </p>
+<p> <i class="fa fa-folder-open"></i>debugging.css  - Debug and Update Styles </p>
+
+
+      </div>
+      <div class="alert alert-success">
+        <p>Please use site Flaticon for adds and changes Themed  icon Fonts <a href="http://www.flaticon.com/">flaticon.com</a></p>
+      </div>
+    </section>
+    <section id="debugging">
+      <header  class="section-header">
+        <h2 class="ui-title-block text-center">Debugging <strong>Styles</strong></h2>
+        <i class="decor-brand decor-brand_mrg-0"></i> </header>
+      <p> For editing or updating use the  .<strong>debugging.css </strong></p>
+      <div class="info-links">
+        <p class="pre"> <i class="fa fa-folder-open"></i> css/debugging.css<br>
+        </p>
+      </div>
+      <div class="alert alert-success">
+        <p> Please for your own changes use custom.css file. It will help you to avoid problems after updating. </p>
+      </div>
+      <div class="info-links">
+        <p class="pre"> <i class="fa fa-folder-open"></i> css/сustom.css<br>
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <!-- .content --> 
+  
+  <!-- .footer --> 
+  
+</div>
+
+<!-- .wrapper -->
+
+<link href="css/master.css" rel="stylesheet">
+<style scoped >
+
+
+.xsection  img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.header , .footer{
+  color: #fff;
+    height: auto !important;
+    padding: 0px;
+    text-align: center;
+}
+
+
+.preview-item{
+ display: inline-block;
+    margin: 0 15px;
+    vertical-align: top;
+    width: 215px;
+}
+
+.preview-item a{
+    border: 1px solid #ccc;
+    display: block;
+    height: 260px;
+    margin-bottom: 20px;
+    overflow: hidden;
+		-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+
+.preview-item:hover a{
+	  border-color: #ffc300;
+}
+
+
+.preview-item img{
+	width:100%;
+	height:auto;
+	position:relative;
+		-webkit-transition: all 4.3s ease-out;
+	-moz-transition: all 4.3s ease-out;
+	-ms-transition: all 4.3s ease-out;
+	-o-transition: all 4.3s ease-out;
+	transition: all 4.3s ease-out
+}
+
+.preview-item h3{
+  font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.andmore{
+  background: none repeat scroll 0 0 #000;
+    color: #fff;
+    display: inline-block;
+    font-family: latobold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.andmore:hover{
+	background:#d90000;
+	text-decoration:none;
+
+}
+
+.content{
+	display:inline-block;
+}
+
+.footer  h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer  h3  a{
+	margin:0 10px;
+}
+
+
+			.info-links{
+			background: #f2f7f9;
+  border-radius: 5px;
+  padding: 15px;
+  line-height: 24px;
+  margin: 15px 0;
+  color: #000;
+			}
+			
+		
+				.info-links a , .info-links p{
+					  color: #525252;
+					  	margin:0;
+				}
+			
+				.info-links *{
+					color:#000;
+				}
+				
+				
+				.info-links i{
+					     color: #2986e2;
+  margin-right: 5px;
+				}
+
+body {
+	background-image:url(media/bg1.jpg);
+	background-color: #2986E2;
+	background-size:cover;
+	background-attachment:fixed;
+	line-height: 1;
+	height:100%;
+	min-height:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+    width: 1100px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	 padding: 15px 55px 55px 55px;
+
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+
+  background: none repeat scroll 0 0 #fff;
+  color: #000;
+  padding: 30px;
+  text-align: left;
+  width: 100%;
+
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+   border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 36px;
+
+}
+
+
+</style>
+
+<!-- Syntax Highlighting -->
+
+<link href="plugins/rainbow/css/github.css" rel="stylesheet" type="text/css" media="screen">
+<script src="plugins/rainbow/js/rainbow.js"></script> 
+<script src="plugins/rainbow/js/language/generic.js"></script> 
+<script src="plugins/rainbow/js/language/html.js"></script> 
+<script src="plugins/rainbow/js/language/css.js"></script> 
+<script src="plugins/rainbow/js/language/php.js"></script> 
+<script src="plugins/rainbow/js/language/javascript.js"></script>
+</body>
+</html>

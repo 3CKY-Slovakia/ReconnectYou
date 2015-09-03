@@ -1,0 +1,19 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* CUSTOM CSS (ADD YOUR CSS HERE!) */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+#reserve-form input{
+    font-size: 16px;
+    color: rgba(0,0,0,1);
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+
+
+
+::-webkit-input-placeholder { color: #f00; }
+::-moz-placeholder { color: #f00; } /* firefox 19+ */
+:-ms-input-placeholder { color: #f00; } /* ie */
+input:-moz-placeholder { color: #f00; }

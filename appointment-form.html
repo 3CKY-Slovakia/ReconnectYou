@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReconnectYou</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<link href="css/master.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src= "js/jquery-migrate-1.2.1.js" ></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+</head>
+
+<body>
+<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12"> <a href="index.html" class="logo"> <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo"> </a> </div>
+                    <div class="col-md-8 col-xs-12">
+                        <div class="header-block">
+                <span class="header-label">
+                    <i class="icon-header icon-call-in color_primary"></i>
+                    <span class="helper">
+                        Zavolajte mi <a href="tel:0948 083 983"><strong>0948 083 983</strong></a>
+                    </span>
+                </span>
+                <span class="header-label">
+                    <i class="icon-header icon-envelope-open color_primary"></i>
+                    <span class="helper">
+                        Napíšte mi <a href="mailto:filipkov@reconnectyou.sk"><strong>filipkov@reconnectyou.sk</strong></a>
+                    </span>
+                </span>
+                <span class="header-label">
+                    <span class="helper">
+                        Ak nepíšem, alebo nezdvíham - liečim. Ozvem sa Vám najneskôr do 48 hodín.
+                    </span>
+                </span>
+                        </div>
+                        <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
+                            <input type="text" value="" id="search-mobile" name="s" >
+                            <button type="submit"><i class="icon fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end header-inner-->
+        </div>
+        <!-- end container-->
+
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12  col-xs-12">
+                        <div class="navbar yamm "  style="background: none">
+                            <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                                <a href="#" class="navbar-brand">Menu</a> </div>
+                            <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown"><a href="index.html"  >Domov <b class="color_primary"></b> </a>
+                                    </li>
+                                    <li class="dropdown"><a href="about-1.html"  >O mne<b class="color_primary"></b> </a>
+                                    </li>
+                                    <li class="dropdown"><a href="#"  > Dokumenty <b class="caret color_primary"></b> </a>
+                                        <ul role="menu" class="dropdown-menu">
+                                            <li> <a href="documents/KLUBOVE PONUKY 2015.pdf" target="_blank"> Klubová ponuka</a> </li>
+                                            <li> <a href="documents/protokol o rekonektívnom liečení.pdf" target="_blank"> Protokol o rekonektívnom liečení</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="appointment-form.html"  >REZERVAČNÝ FORMULÁR </a> </li>
+                                    <li><a href="contact.html"  >KONTAKT </a> </li>
+                                </ul>
+                                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                                    <input type="text" value="" id="search" name="s" >
+                                    <button type="submit"><i class="icon-magnifier"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end top-nav -->
+    </div>
+    <!-- HEADER END -->
+
+
+  <div class="ui-title-page bg_title bg_transparent">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Rezervačný formulár</h1>
+          <div class="ui-subtitle-page">Objednajte si termín, jednoducho a pohodlne</div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end ui-title-page -->
+
+
+  <div class="border_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="javascript:void(0);"><i class="icon icon-home color_primary"></i></a></li>
+            <li class="active">Rezervačný formulár</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div><!-- end breadcrumb -->
+
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="media/1170x300/1.jpg" height="300" width="1170" alt="Foto">
+            <div class="ui-subtitle-block ui-subtitle-block_form">Prosím, vyplňte formulár a vyberte si mesto, ktoré Vám vyhovuje</div>
+            <i class="decor-brand"></i>
+          </div>
+        </div><!-- end row -->
+
+        <form class="form-appointment ui-form" id="reserve-form" action="php/sendMail.php" method="POST">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+              <div class="input-group">
+                <input type="text" placeholder="Meno a Priezvisko" required>
+              </div>
+              <div class="input-group">
+                <input type="email" placeholder="Email" required>
+              </div>
+              <div class="input-group">
+                <input class="datetimepicker" type="text" placeholder="Dátum narodenia" required>
+                <i class="icon icon-calendar"></i>
+              </div>
+
+                <div role="select" class="jelect">
+                    <input id="jelect" name="sedenia" value="0" data-text="imagemin" type="text" class="jelect-input" required>
+                    <div tabindex="0" role="button" class="jelect-current">Vyberte si počet sedení</div>
+                    <ul class="jelect-options">
+                        <li data-val='0' tabindex="0" role="option" class="jelect-option jelect-option_state_active">1</li>
+                        <li data-val='1' tabindex="0" role="option" class="jelect-option">2</li>
+                        <li data-val='1' tabindex="0" role="option" class="jelect-option">3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+              <div class="input-group">
+                <input type="tel" placeholder="Telefónne číslo" required>
+              </div>
+              <div role="select" class="jelect">
+                <input id="jelect" name="tool" value="0" data-text="imagemin" type="text" class="jelect-input" required>
+                <div tabindex="0" role="button" class="jelect-current">Vyberte si Mesto</div>
+                <ul class="jelect-options">
+                  <li data-val='0' tabindex="0" role="option" class="jelect-option jelect-option_state_active">Bratislava</li>
+                  <li data-val='1' tabindex="0" role="option" class="jelect-option">Prievidza</li>
+                  <li data-val='2' tabindex="0" role="option" class="jelect-option">Tatranská Lomnica</li>
+                </ul>
+              </div>
+              <div role="select" class="jelect">
+                <input id="jelect" name="tool" value="0" data-text="imagemin" type="text" class="jelect-input" required>
+                <div tabindex="0" role="button" class="jelect-current">Vyberte si pohlavie</div>
+                <ul class="jelect-options">
+                  <li data-val='0' tabindex="0" role="option" class="jelect-option jelect-option_state_active">Muž</li>
+                  <li data-val='1' tabindex="0" role="option" class="jelect-option">Žena</li>
+                </ul>
+              </div>
+                <div role="select" class="jelect">
+                    <input id="jelect" name="platba" value="0" data-text="imagemin" type="text" class="jelect-input" required>
+                    <div tabindex="0" role="button" class="jelect-current">Vyberte si spôsob platby</div>
+                    <ul class="jelect-options">
+                        <li data-val='0' tabindex="0" role="option" class="jelect-option jelect-option_state_active">Na účet 48 hodín po potvrdení termínu</li>
+                        <li data-val='1' tabindex="0" role="option" class="jelect-option">Platba v hotovosti vždy pred prvým sedením</li>
+                    </ul>
+                </div>
+            </div>
+          </div><!-- end row -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="input-group">
+                <textarea id="comment-text" placeholder="Napíšte poznámku" name="comment" required rows="10"></textarea>
+              </div>
+                <hr />
+                Jedno sedenie komplet trvá maximálne do 60 minút, stojí 100 EUR<br />
+                Č. účtu 150 109 3000/1111 (Unicredit)<br />
+                Optimálne pre klienta sú 3 sedenia<br /><br />
+                <button class="btn bg-color_primary">POŽIADAŤ O MESTO <span class="btn-plus">+</span></button>
+            </div>
+          </div><!-- end row -->
+        </form><!-- end form-appointment -->
+      </div><!-- end container -->
+    </section><!-- end section -->
+
+
+  </main><!-- end main-content -->
+
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="container">
+                <div class="footer__block clearfix">
+                    <div class="block__wrap pull-left">
+                        <p class="block__title"><i class="block__icon icon-note"></i>Máte záujem znovu skvalitniť svoj život?</p>
+                        <p class="block__text">STAČÍ DOHODNÚŤ MESTO</p>
+                    </div>
+                    <a class="block__btn btn bg-color_second pull-right" href="appointment-form.html">POŽIADAŤ O MESTO <span class="btn-plus">+</span></a> </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <section class="footer__section">
+                            <h2 class="footer__title">ReconnectYou</h2>
+                            <i class="decor-brand decor-brand_footer"></i>
+                            <address class="footer__contacts">
+                                <i class="footer__icon icon-pointer color_primary"></i>Odbojárov 3, Bratislava 831 04
+                            </address>
+                            <p class="footer__contacts"><i class="footer__icon icon-call-in color_primary"></i>0948 083 983</p>
+                            <p class="footer__contacts"><i class="footer__icon icon-envelope-open color_primary"></i>filipkov@reconnectyou.sk</p>
+                        </section>
+                    </div>
+                    <div class="col-sm-6">
+                        <section class="footer__section">
+                            <h2 class="footer__title">Časový rozvrh</h2>
+                            <i class="decor-brand decor-brand_footer"></i>
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td style="width: 100px">Pondelok</td>
+                                    <td><span class="line-bottom"></span></td>
+                                    <td>Prievidza klienti, výnimka športovci v Prievidzi</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px">Utorok - Štvrtok</td>
+                                    <td><span class="line-bottom"></span></td>
+                                    <td>V rámci SR športové kluby, výnimka klienti </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px">Piatok - Nedeľa</td>
+                                    <td><span class="line-bottom"></span></td>
+                                    <td>Prievidza klienti, výnimka športové kluby</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end footer__inner -->
+
+        <div class="footer__menu clearfix">
+            <div class="container"> <a href="index.html" class="logo pull-left"> <img class="logo__img" src="img/logo_footer.png" height="44" width="270" alt="Logo"> </a>
+                <ul class="pull-right">
+                    <li><a href="index.html">DOMOV</a></li>
+                    <li><a href="about-1.html">O MNE</a></li>
+                    <li><a href="dokumenty.html">DOKUMENTY</a></li>
+                    <li><a href="appointment-form.html">REZERVAČNÝ FORMULÁR</a></li>
+                    <li><a href="contact.html;">KONTAKT</a></li>
+                </ul>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end footer__menu -->
+
+        <div class="footer__bottom"> <span class="copyright">© Copyrights 2015 ReconnectYou</span>
+        </div>
+    </footer>
+
+
+</div><!-- end layout-theme -->
+
+<span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span>
+<div id="page-preloader">
+  <div class="spinner-loader"> <img width="294" height="50" alt="Logo" src="img/logo.png" class="logo__loader">
+    <div class="heartbeat-loader"></div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="plugins/jelect/jquery.jelect.js"></script>
+<script src="plugins/nouislider/jquery.nouislider.all.min.js"></script>
+
+
+<!--THEME-->
+<script src="js/cssua.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
