@@ -606,3 +606,22 @@ $(document).ready(
     }
 
 );
+
+/////////////////////////////////////////////////////////////////
+// Tooltips
+/////////////////////////////////////////////////////////////////
+$(document).ready(function() {
+
+    $('.appointment-submit').click(function(){
+        $(".tooltip").each(function() {
+            if(!$(this).val()) {
+                $(this).tooltipster();
+                $(this).tooltipster('show');
+                var self = this;
+                setTimeout(function() {
+                    $(self).tooltipster('destroy');
+                },3000);
+            }
+        });
+    });
+});

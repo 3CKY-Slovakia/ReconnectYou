@@ -40,7 +40,7 @@
     <div class="container">
       <div class="header-inner">
         <div class="row">
-          <div class="col-md-4 col-xs-12"> <a href="index.html" class="logo"> <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo"> </a> </div>
+          <div class="col-md-4 col-xs-12"> <a href="index.php" class="logo"> <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo"> </a> </div>
           <div class="col-md-8 col-xs-12">
             <div class="header-block">
                 <span class="header-label">
@@ -82,7 +82,7 @@
                 <a href="#" class="navbar-brand">Menu</a> </div>
               <div id="navbar-collapse-1" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                  <li class="dropdown"><a href="index.html"  >Domov <b class="color_primary"></b> </a>
+                  <li class="dropdown"><a href="index.php"  >Domov <b class="color_primary"></b> </a>
                   </li>
                   <li class="dropdown"><a href="about-1.html"  >O mne<b class="color_primary"></b> </a>
                   </li>
@@ -478,13 +478,12 @@
     <!-- end footer__inner -->
     
     <div class="footer__menu clearfix">
-      <div class="container"> <a href="index.html" class="logo pull-left"> <img class="logo__img" src="img/logo_footer.png" height="44" width="270" alt="Logo"> </a>
+      <div class="container"> <a href="index.php" class="logo pull-left"> <img class="logo__img" src="img/logo_footer.png" height="44" width="270" alt="Logo"> </a>
         <ul class="pull-right">
-          <li><a href="index.html">DOMOV</a></li>
+          <li><a href="index.php">DOMOV</a></li>
           <li><a href="about-1.html">O MNE</a></li>
-          <li><a href="dokumenty.html">DOKUMENTY</a></li>
           <li><a href="appointment-form.html">REZERVAČNÝ FORMULÁR</a></li>
-          <li><a href="contact.html;">KONTAKT</a></li>
+          <li><a href="contact.html">KONTAKT</a></li>
         </ul>
       </div>
       <!-- end container --> 
@@ -522,5 +521,19 @@
 <script src="js/cssua.min.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/custom.js"></script>
+<?php
+session_start();
+
+if(isset($_SESSION['email_sent'])) {
+?>
+    <script>
+        $(document).ready(function() {
+            alert('Váš email bol úspešne odoslaný.')
+        })
+    </script>
+<?php
+    unset($_SESSION['email_sent']);
+}
+?>
 </body>
 </html>
